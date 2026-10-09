@@ -1,0 +1,21 @@
+{
+    "$schema": "./node_modules/@pterodactyl/sdk/manifest.schema.json",
+    "id": "phpmyadmin",
+    "name": "phpMyAdmin",
+    "version": "1.0.0",
+    "requires": {
+        "panel": "^2.0.0-dev",
+        "sdk": "^2.0.0-beta.4",
+        "php": "^8.3"
+    },
+    "description": "Open server databases in phpMyAdmin with one click, without copying passwords.",
+    "author": "Izuna Seikatsu",
+    "provider": "Phpmyadmin\\PhpmyadminProvider",
+    "ui": {
+        "entry": "dist/client.js",
+        "mode": "native",
+        "prefix": "pma",
+        "screens": []
+    },
+    "icon": "database"
+}

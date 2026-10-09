@@ -1,0 +1,11 @@
+{
+    "description": "Open server databases in phpMyAdmin with one click, without copying passwords.",
+    "autoload": {
+        "psr-4": {
+            "Phpmyadmin\\": "src/"
+        }
+    },
+    "config": {
+        "autoloader-suffix": "PhpmyadminExtension"
+    }
+}
