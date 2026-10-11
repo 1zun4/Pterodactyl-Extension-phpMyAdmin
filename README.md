@@ -1,9 +1,9 @@
 # phpMyAdmin for Pterodactyl
 
-[![Release](https://img.shields.io/github/v/release/1zun4/Pterodactyl-Extension-phpMyAdmin?style=flat-square)](https://github.com/1zun4/Pterodactyl-Extension-phpMyAdmin/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/1zun4/Pterodactyl-Extension-phpMyAdmin/total?style=flat-square)](https://github.com/1zun4/Pterodactyl-Extension-phpMyAdmin/releases)
+[![Release](https://img.shields.io/github/v/release/CCBlueX/Pterodactyl-Extension-phpMyAdmin?style=flat-square)](https://github.com/CCBlueX/Pterodactyl-Extension-phpMyAdmin/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/CCBlueX/Pterodactyl-Extension-phpMyAdmin/total?style=flat-square)](https://github.com/CCBlueX/Pterodactyl-Extension-phpMyAdmin/releases)
 [![Pterodactyl](https://img.shields.io/badge/Pterodactyl-2.0-0e4688?style=flat-square)](https://pterodactyl.io)
-[![License](https://img.shields.io/github/license/1zun4/Pterodactyl-Extension-phpMyAdmin?style=flat-square)](LICENSE)
+[![License](https://img.shields.io/github/license/CCBlueX/Pterodactyl-Extension-phpMyAdmin?style=flat-square)](LICENSE)
 
 Open server databases in phpMyAdmin with one click, without copying passwords.
 
@@ -11,7 +11,7 @@ Open server databases in phpMyAdmin with one click, without copying passwords.
 
 ## Install
 
-1. Download `phpmyadmin-<version>.pteroext` from the [latest release](https://github.com/1zun4/Pterodactyl-Extension-phpMyAdmin/releases/latest), then install and enable it under **Admin → Extensions**.
+1. Download `phpmyadmin-<version>.pteroext` from the [latest release](https://github.com/CCBlueX/Pterodactyl-Extension-phpMyAdmin/releases/latest), then install and enable it under **Admin → Extensions**.
 2. Copy [`contrib/phpmyadmin/signon.php`](contrib/phpmyadmin/signon.php) next to phpMyAdmin's `index.php`, add the server from [`config.inc.php.example`](contrib/phpmyadmin/config.inc.php.example) and fill in the panel URL and a secret.
 3. Open the extension's settings and enter the `signon.php` URL and the same secret.
 
